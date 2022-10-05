@@ -1,0 +1,57 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.high-score {
+    background-color: lightblue;
+}
+
+.container {
+    width: 600px;
+    height: 3300px;
+    text-align: center;
+}
+
+.title {
+    font-size: 30px;
+
+}
+
+.text {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.btn {
+    font-size: 30px;
+    color: black;
+    background-color: lightblue;  
+}
+
+.btn:hover {
+    background-color: red;
+}
+
+.btn-start {
+    width: 400px;
+}
+
+.btn-answer {
+    width: 400px;
+    text-align: center;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.check-result {
+    font-size: 30px;
+}
+
+.list {
+    list-style-type: decimal;
+}
